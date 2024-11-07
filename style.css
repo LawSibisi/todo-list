@@ -90,3 +90,17 @@ ul li.checked::before{
     content:"\2713\0020";
     color: #fff;
 } 
+ul li span{
+    position:absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+}
+ul li span:hover{
+    background: #edeef0 ;
+}
