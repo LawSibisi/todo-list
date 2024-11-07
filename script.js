@@ -18,10 +18,10 @@ function addTask(){
 }  
 
 listContainer.addEventListener("click", function(e){
-    if(e.target.tagName === "LI"){
+    if(e.target.tagName === "li"){
         e.target.parentElement.toggle("checked");
     }
-    else if(e.target.tagName === "SPAN"){
+    else if(e.target.tagName === "span"){
         e.target.parentElement.remove();
     }
 
